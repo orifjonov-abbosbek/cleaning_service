@@ -96,7 +96,6 @@ li {
   background-repeat: no-repeat;
   background-position: calc(50% + 350px) calc(50% + 57px);
   background-size: 600px 840px;
-  margin-bottom: 120px;
 }
 .hero_title {
   width: 641px;
@@ -155,3 +154,106 @@ li {
   line-height: 100%;
   color: #647685;
 }
+/******************** hero sectio end  */
+
+/******************** about section start  */
+
+.about {
+  background-image: url(../image/about_img.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 350px) calc(50% + 100px);
+  background-size: 800px;
+  margin-bottom: 50px;
+  padding-top: 120px;
+  padding-bottom: 128px;
+}
+.about_pre_title {
+  width: 89px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  color: #050931;
+  padding-bottom: 4px;
+}
+
+.under_about {
+  display: flex;
+  width: 89px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 13px;
+}
+.line {
+  width: 36px;
+  height: 2px;
+  background: #fe6b01;
+  border-radius: 100px;
+}
+.circle {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #fe6b01;
+}
+
+.about_title {
+  width: 492px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 120%;
+  color: #050931;
+  margin-bottom: 24px;
+}
+.about_desc {
+  width: 513px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  color: #647685;
+  margin-bottom: 20px;
+}
+.about_desc span {
+  color: #fe6b01;
+}
+
+.sub_desc {
+  width: 499px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  color: #647685;
+  margin-bottom: 48px;
+}
+
+.about_btn {
+  width: 171px;
+  height: 66px;
+  background: #1f6bff;
+  border-radius: 4px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 166%;
+  color: #ffffff;
+  border: none;
+}
+/******************** about section end  */
+/******************* servicr section start  */
+
+
+
+
+
+
+
+
+/******************* servicr section end  */
