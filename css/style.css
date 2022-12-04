@@ -29,7 +29,8 @@ li {
 /************* header section start  ************/
 
 .header_wrapper {
-  margin-top: 27px;
+  padding-top: 27px;
+  padding-bottom: 26px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -83,9 +84,74 @@ li {
   color: #000000;
 }
 
-
-
 /********************* heaer section end */
 
 /********************* hero section start */
 
+.hero {
+  background-color: #dbebf8;
+  padding-top: 133px;
+  padding-bottom: 91px;
+  background-image: url(../image/hero_img.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 350px) calc(50% + 57px);
+  background-size: 600px 840px;
+  margin-bottom: 120px;
+}
+.hero_title {
+  width: 641px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 140%;
+  color: #050931;
+  margin-bottom: 24px;
+}
+.hero_desc {
+  width: 617px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 172%;
+  color: #767877;
+  margin-bottom: 48px;
+}
+.hero_btn {
+  width: 177px;
+  height: 66px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 166%;
+  color: #ffffff;
+  background: #1f6bff;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 92px;
+}
+.hero_list {
+  display: flex;
+  width: 730px;
+  justify-content: space-between;
+}
+.list_item_number {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  color: #050931;
+  margin-bottom: 12px;
+}
+.list_item_desc {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  color: #647685;
+}
