@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+  padding-left: 0;
+}
+
+.container {
+  max-width: 1256px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+/************* header section start  ************/
+
+.header_wrapper {
+  margin-top: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_list {
+  display: flex;
+  width: 565px;
+  justify-content: space-between;
+}
+.nav_list_item_link {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  color: rgba(34, 35, 38, 0.8);
+}
+.nav_list_item_link:hover {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  color: #222326;
+}
+.header_contact {
+  display: flex;
+  width: 198px;
+  justify-content: space-between;
+}
+.header_tel_icon {
+  margin-right: 12px;
+}
+
+.caall_us {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-bottom: 7px;
+}
+.header_phone_number {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+
+
+/********************* heaer section end */
+
+/********************* hero section start */
+
