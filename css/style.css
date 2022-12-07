@@ -19,7 +19,7 @@ li {
 }
 
 .container {
-  max-width: 1256px;
+  max-width: 1324px;
   margin-left: auto;
   margin-right: auto;
   padding-right: 20px;
@@ -163,7 +163,7 @@ li {
   background-repeat: no-repeat;
   background-position: calc(50% + 350px) calc(50% + 100px);
   background-size: 800px;
-  margin-bottom: 50px;
+  margin-bottom: 128px;
   padding-top: 120px;
   padding-bottom: 128px;
 }
@@ -249,11 +249,364 @@ li {
 /******************** about section end  */
 /******************* servicr section start  */
 
+.srvice {
+  background-image: url(../image/service-top-bg.png);
+  background-repeat: no-repeat;
+  background-color: #f4f9fd;
+  padding-top: 120.27px;
+  padding-bottom: 120.73px;
+}
 
+.pre_servise {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  color: #050931;
+  margin: 0 auto;
+  padding-bottom: 5px;
+}
 
+.under_about_center {
+  display: flex;
+  width: 80px;
+  margin-left: calc(50% - 50px);
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 13px;
+}
+.service_title {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 120%;
+  color: #050931;
+  text-align: center;
+  margin-bottom: 20px;
+}
 
+.service_desc {
+  width: 609px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  margin: 0 auto;
+  text-align: center;
+  color: #647685;
+  margin-bottom: 78px;
+}
 
+.service_card_wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+.service_card {
+  width: 420px;
+  background-color: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 12px;
+  padding-top: 32px;
+  padding-right: 32px;
+  padding-left: 32px;
+  padding-bottom: 39px;
+  margin-bottom: 60px;
+}
 
+.service_card_title {
+  width: 256px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  color: #1b1e1c;
+  margin-bottom: 20px;
+}
 
+.service_card_title::before {
+  display: block;
+  content: "";
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  background-color: #fff4da;
+  background-image: url(../image/card1.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 40px;
+}
 
+.service_card:nth-child(2) .service_card_title::before {
+  background-color: #daf1e3;
+}
+
+.service_card:nth-child(3) .service_card_title::before {
+  background-color: #ffe6da;
+}
+
+.service_card_desc {
+  width: 356px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  color: #767877;
+  margin-bottom: 47px;
+}
+
+.service_bottom_btn {
+  width: 172px;
+  height: 66px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 166%;
+  color: #ffffff;
+  background: #1f6bff;
+  border-radius: 4px;
+  border: none;
+  margin-left: 500px;
+  cursor: pointer;
+}
 /******************* servicr section end  */
+
+/****************** how we work section  */
+
+.how_we_work {
+  padding-top: 120px;
+  background-image: url(../image/how_section_bg.svg);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 600px) calc(50% - 300px);
+  padding-bottom: 120px;
+}
+.how_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.how_pre_title {
+  width: 126px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  color: #050931;
+}
+.how_title {
+  width: 555px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 120%;
+  color: #050931;
+}
+
+.how_desc {
+  width: 403px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  color: #647685;
+}
+
+.under_about_how {
+  display: flex;
+  width: 126px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 13px;
+}
+
+.line_how {
+  width: 54px;
+  height: 2px;
+  background: #fe6b01;
+  border-radius: 100px;
+}
+
+.how_card_wrapper {
+  display: flex;
+  align-items: center;
+  padding-right: 250px;
+}
+.how_card {
+  width: 337px;
+  border-left: 1px solid #ff8345;
+  padding-right: 46px;
+  padding-left: 23px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.how_card_title {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  text-align: center;
+  color: #1b1e1c;
+  margin-bottom: 16px;
+}
+
+.how_card_title::before {
+  display: block;
+  content: "";
+  width: 107px;
+  height: 107px;
+  background-image: url(../image/how_card1.svg);
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 32px;
+}
+.how_card:nth-child(2) {
+  border-left: 1px solid #1f6bff;
+}
+.how_card:nth-child(3) {
+  border-left: 1px solid #ffca45;
+}
+.how_card:nth-child(4) {
+  border-left: 1px solid #37d348;
+}
+
+.how_card:nth-child(2) .how_card_title::before {
+  background-image: url(../image/how_card2.svg);
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+}
+.how_card:nth-child(3) .how_card_title::before {
+  background-image: url(../image/how_card3.svg);
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+}
+.how_card:nth-child(4) .how_card_title::before {
+  background-image: url(../image/how_card4.svg);
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.how_card_desc {
+  width: 258px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  text-align: center;
+  color: #767877;
+}
+
+/****************** why choose section  */
+
+.why_choose {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #f4f9fd;
+  background-image: url(../image/why_choose_bg.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 300px);
+  background-size: 600px 800px;
+}
+.why_choose_us_pretitle {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  padding-bottom: 10px;
+  color: #050931;
+}
+.under_about_choose {
+  display: flex;
+  width: 155px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 13px;
+}
+.line_choose {
+  width: 62.44px;
+  height: 2px;
+  background: #fe6b01;
+  border-radius: 100px;
+}
+.card_img {
+  width: 80px;
+  height: 80px;
+  padding: 16px;
+  border-radius: 50%;
+  background-color: #f5ebe4;
+}
+.why_choose_us_title {
+  width: 496px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 120%;
+  color: #050931;
+  margin-bottom: 20px;
+}
+.why_shoose_desc {
+  width: 609px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  color: #647685;
+  margin-bottom: 58px;
+}
+
+.card_article {
+  margin-left: 24px;
+}
+.choose_card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.chose_card_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.choose_card:nth-child(2) .card_img {
+  background-color: #e1f5eb;
+}
+.choose_card:nth-child(3) .card_img {
+  background-color: #f5f6e4;
+}
+.choose_card_titile {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  color: #050931;
+  margin-bottom: 12px;
+}
+.choose_card_desc {
+  width: 505px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  color: #647685;
+  opacity: 0.7;
+}
